@@ -1,4 +1,4 @@
-# Java-bubble sort E insertion Sort
+# Java-Atividades
 
 public Class Principal {
 
@@ -34,30 +34,30 @@ import java.util.Random;
 public class Principal {
 
 public static void main (String [] args ){
-int []x= {9, 3, 4, 6 ,7};
-insertionSort(v);
+ int []x= {9, 3, 4, 6 ,7};
+ insertionSort(v);
 System.out.println(Arrays.toString(v));
 }
-public static int [] gerarVetor(28){
-int[] v = new int[n];
-Random gerador = new Random();
-for (int i = 0; i < n ; i++){
-v[i]= gerador.nextInt(100);
+ public static int [] gerarVetor(28){
+ int[] v = new int[n];
+ Random gerador = new Random();
+ for (int i = 0; i < n ; i++){
+ v[i]= gerador.nextInt(100);
 return v;
 ]}
 
 private static void insertionSort(int[] v) {
  int v , j;
-for (int i = 1; i<length; i++){
-x=v[i];
-j=i-1;
-while ((j>=0) && v [j] > x {
-v[j+1] = v[j];
-j=j-1;
-}
-v[j+1]=x;
-}
-}
+ for (int i = 1; i<length; i++){
+ x=v[i];
+ j=i-1;
+ while ((j>=0) && v [j] > x {
+ v[j+1] = v[j];
+ j=j-1;
+ }
+ v[j+1]=x;
+  }
+ }
 }
 
  }
@@ -71,25 +71,25 @@ v[j+1]=x;
 
 public class Program {
 public static void main (String [] args){
-int []S ={1,9,11,21,31,40};
-int indice =  binaria (S, 31);
-System.out.println(indice);
+ int []S ={1,9,11,21,31,40};
+ int indice =  binaria (S, 31);
+ System.out.println(indice);
 
 }
-private static int binaria (int [] s , int x) {
-int meio
-int inicio, fim;
-inicio = 0;
-fim = S.length-1;
+ private static int binaria (int [] s , int x) {
+ int meio
+ int inicio, fim;
+ inicio = 0;
+ fim = S.length-1;
 
-while (inicio <= fim){
-meio = (inicio + fim)/2;
-if (s[meio] < x) inicio = meio +1;
-else if (s[meio]< x) início = meio +1;
-else if (s[meio]> x) fim = meio-1;
-}
-return -1;
-}
+ while (inicio <= fim){
+ meio = (inicio + fim)/2;
+ if (s[meio] < x) inicio = meio +1;
+ else if (s[meio]< x) início = meio +1;
+ else if (s[meio]> x) fim = meio-1;
+  }
+ return -1;
+ }
 }
 
 //FIM BUSCA BINÁRIA//
@@ -102,18 +102,18 @@ public class Main
 {
 public static void main(String [] args)
 }
-int g = -1;
-while (g<0)
+ int g = -1;
+ while (g<0)
 {
-String input = JOptionPane.showInputDialog("Insira um número:");
-if (input.lenght()>0)
+ String input = JOptionPane.showInputDialog("Insira um número:");
+ if (input.lenght()>0)
 {
-g++;
+ g++;
 System.out.println("Belezura");
-}else
-System.out.Println ("Tente inserir um número:");
-}
-}
+} else
+ System.out.Println ("Tente inserir um número:");
+  }
+ }
 }
 
 //FIM JOPTION PANE//
