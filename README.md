@@ -62,3 +62,59 @@ v[j+1]=x;
 
  }
 }
+
+
+//FIM do INSERTION SORT//
+
+
+//Inicia BUSCA BINÁRIA pois github não dá escolha a não ser importar ou vincular e meu computador não tem nenhuma IDE instalada por conta do espaço//
+
+public class Program {
+public static void main (String [] args){
+int []S ={1,9,11,21,31,40};
+int indice =  binaria (S, 31);
+System.out.println(indice);
+
+}
+private static int binaria (int [] s , int x) {
+int meio
+int inicio, fim;
+inicio = 0;
+fim = S.length-1;
+
+while (inicio <= fim){
+meio = (inicio + fim)/2;
+if (s[meio] < x) inicio = meio +1;
+else if (s[meio]< x) início = meio +1;
+else if (s[meio]> x) fim = meio-1;
+}
+return -1;
+}
+}
+
+//FIM BUSCA BINÁRIA//
+
+//Inicia JOPTION PANE pois github não dá escolha a não ser importar ou vincular e meu computador não tem nenhuma IDE instalada por conta do espaço//
+
+import java.swing.JOptionPane;
+
+public class Main
+{
+public static void main(String [] args)
+}
+int g = -1;
+while (g<0)
+{
+String input = JOptionPane.showInputDialog("Insira um número:");
+if (input.lenght()>0)
+{
+g++;
+System.out.println("Belezura");
+}else
+System.out.Println ("Tente inserir um número:");
+}
+}
+}
+
+//FIM JOPTION PANE//
+
