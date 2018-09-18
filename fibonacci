@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class fibones {
+      
+       public static void main(String[] args) {
+           
+               Scanner tcl = new Scanner(System.in);
+               fibones objeto = new fibones();
+               int a= 1;
+               int b=1;
+               
+               System.out.println(a,b+a);
+       }}
+                
+                
+
+
